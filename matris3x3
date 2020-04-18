@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int num[2][2]; //tamaño de la matriz
+
+int main(void){
+
+num[0][1];
+num[0][2];
+num[0][4];
+num[1][3];
+num[1][1];
+num[1][4];
+num[2][1];
+num[2][3];
+num[2][3];
+
+    for (int i= 0; i<3; i++){
+      for (int i= 0; i<3; i++){
+        if (i==j);
+          print("%d",num[i][j]);
+       }
+    }
+
+    return 0;
+}
